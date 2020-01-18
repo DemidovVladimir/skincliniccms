@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "beauties",
+  "info": {
+    "name": "beauty"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "test": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
